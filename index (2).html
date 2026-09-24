@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sublimación | Tu Marca</title>
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="container header-content-simple">
+
+        <a href="#" class="logo">
+            <img
+                src="Banner-03.jpg (1).jpeg"
+                alt="Tu Marca"
+            >
+        </a>
+
+        <div class="header-actions">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Buscar productos..."
+                    autocomplete="off"
+                >
+
+                <button
+                    id="openSearch"
+                    class="search-button"
+                    type="button"
+                    aria-label="Buscar"
+                >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MENÚ PRINCIPAL
+===================================================== -->
+
+<button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Abrir menú">
+    <i class="fa-solid fa-bars"></i>
+</button>
+
+<nav class="main-nav" id="mainNav">
+
+    <!-- CABECERA DEL PANEL MÓVIL: buscador + cerrar -->
+
+    <div class="drawer-top">
+
+        <form class="drawer-search" id="drawerSearchForm" role="search">
+
+            <input
+                type="search"
+                id="drawerSearchInput"
+                placeholder="Buscar productos..."
+                autocomplete="off"
+                aria-label="Buscar productos"
+            >
+
+            <button type="submit" aria-label="Buscar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+        <button
+            type="button"
+            class="drawer-close"
+            id="drawerClose"
+            aria-label="Cerrar menú"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+
+    <!-- SUBLIMACIÓN -->
+
+    <div class="nav-dropdown">
+
+        <a href="#" class="dropdown-toggle">
+            SUBLIMACIÓN
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <div class="dropdown-menu">
+
+            <a href="#" data-category="tazas">
+                Tazas blancas y de color
+            </a>
+
+            <a href="#" data-category="textil">
+                Productos textiles
+            </a>
+
+            <a href="#" data-category="tomatodos">
+                Tomatodos
+            </a>
+
+            <a href="#" data-category="otros">
+                Otros productos
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- IMPRESIÓN -->
+
+    <div class="nav-dropdown">
+
+        <a href="#" class="dropdown-toggle">
+            IMPRESIÓN
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <div class="dropdown-menu">
+
+            <a href="#" data-category="tarjetas">
+                Tarjetas
+            </a>
+
+            <a href="#" data-category="flyers">
+                Flyers
+            </a>
+
+            <a href="#" data-category="banners">
+                Banners
+            </a>
+
+            <a href="#" data-category="stickers">
+                Stickers
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- MERCHANDISING -->
+
+    <div class="nav-dropdown">
+
+        <a href="#" class="dropdown-toggle">
+            MERCHANDISING
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <div class="dropdown-menu">
+
+            <a href="#" data-category="llaveros">
+                Llaveros
+            </a>
+
+            <a href="#" data-category="pines">
+                Pines y botones
+            </a>
+
+            <a href="#" data-category="mousepads">
+                Mouse Pads
+            </a>
+
+            <a href="#" data-category="merchandising">
+                Otros productos
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- DISEÑO GRÁFICO -->
+
+    <div class="nav-dropdown">
+
+        <a href="#" class="dropdown-toggle">
+            DISEÑO GRÁFICO
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <div class="dropdown-menu">
+
+            <a href="#" data-category="logos">
+                Logos
+            </a>
+
+            <a href="#" data-category="publicidad">
+                Publicidad
+            </a>
+
+            <a href="#" data-category="redes-sociales">
+                Redes sociales
+            </a>
+
+            <a href="#" data-category="editorial">
+                Diseño editorial
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- NOSOTROS -->
+
+    <div class="nav-dropdown">
+
+        <a href="#nosotros" class="dropdown-toggle" data-scroll="nosotros">
+            NOSOTROS
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <div class="dropdown-menu">
+
+            <a href="#nosotros" data-scroll="nosotros">
+                Quiénes somos
+            </a>
+
+            <a href="#mision" data-scroll="mision">
+                Nuestra misión
+            </a>
+
+            <a href="#vision" data-scroll="vision">
+                Nuestra visión
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- REDES SOCIALES (solo visibles en el panel móvil) -->
+
+    <div class="drawer-social">
+
+        <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+    </div>
+
+</nav>
+
+<!-- Fondo oscuro detrás del panel móvil -->
+<div class="menu-overlay" id="menuOverlay"></div>
+
+
+
+<!-- =====================================================
+     PANEL DE BÚSQUEDA
+===================================================== -->
+
+<div class="search-panel" id="searchPanel">
+
+    <div class="container search-container">
+
+        <div class="search-input-wrapper">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchPanelInput"
+                placeholder="Buscar producto..."
+                autocomplete="off"
+            >
+
+        </div>
+
+        <button
+            id="closeSearch"
+            type="button"
+            aria-label="Cerrar búsqueda"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <div
+        class="container search-results"
+        id="searchResults"
+    ></div>
+
+</div>
+
+
+<!-- =====================================================
+     REEL DE PRODUCTOS
+===================================================== -->
+
+<section class="products-reel-section">
+
+    <div class="reel-track">
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/mug,printing"
+                alt="Taza para sublimación"
+            >
+            <span>Tazas para sublimación</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="images.jpeg"
+                alt="Polo sublimable"
+            >
+            <span>Textiles sublimables</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://copex.com.pe/wp-content/uploads/2025/03/01-00081.jpg"
+                alt="Tomatodo sublimable"
+            >
+            <span>Tomatodos</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/mousepad,computer"
+                alt="Mouse Pad"
+            >
+            <span>Mouse Pads</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/keychain,printing"
+                alt="Llavero sublimable"
+            >
+            <span>Llaveros</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/printing,machine"
+                alt="Máquina de sublimación"
+            >
+            <span>Máquinas de sublimación</span>
+        </div>
+
+
+        <!-- DUPLICADOS -->
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/mug,printing"
+                alt="Taza para sublimación"
+            >
+            <span>Tazas para sublimación</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/tshirt,printing"
+                alt="Polo sublimable"
+            >
+            <span>Textiles sublimables</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/waterbottle,printing"
+                alt="Tomatodo sublimable"
+            >
+            <span>Tomatodos</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/mousepad,computer"
+                alt="Mouse Pad"
+            >
+            <span>Mouse Pads</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/keychain,printing"
+                alt="Llavero sublimable"
+            >
+            <span>Llaveros</span>
+        </div>
+
+        <div class="reel-item">
+            <img
+                src="https://loremflickr.com/600/600/printing,machine"
+                alt="Máquina de sublimación"
+            >
+            <span>Máquinas de sublimación</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<section class="breadcrumb-section">
+
+    <div class="container breadcrumb">
+
+        <a href="#">
+            Inicio
+        </a>
+
+        <i class="fa-solid fa-angle-right"></i>
+
+        <span>
+            Sublimación
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTENIDO PRINCIPAL
+===================================================== -->
+
+<main class="container main-layout">
+
+
+    <!-- =================================================
+         SIDEBAR
+    ================================================== -->
+
+    <aside class="sidebar">
+
+        <h3>
+            Categorías
+        </h3>
+
+
+        <ul class="category-list">
+
+            <!-- SUBLIMACIÓN -->
+
+            <li class="category-parent">
+
+                <div class="category-toggle">
+
+                    <span>Sublimación</span>
+
+                    <span>227</span>
+
+                    <i class="fa-solid fa-chevron-down toggle-arrow"></i>
+
+                </div>
+
+                <ul class="sub-category-list">
+
+                    <li>
+                        <a href="#" data-category="tazas">
+                            Tazas blancas y de color
+                            <span>35</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="textil">
+                            Productos textiles
+                            <span>28</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="tomatodos">
+                            Tomatodos
+                            <span>17</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="otros">
+                            Otros productos
+                            <span>42</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+            <!-- IMPRESIÓN -->
+
+            <li class="category-parent">
+
+                <div class="category-toggle">
+
+                    <span>Impresión</span>
+
+                    <span>120</span>
+
+                    <i class="fa-solid fa-chevron-down toggle-arrow"></i>
+
+                </div>
+
+                <ul class="sub-category-list">
+
+                    <li>
+                        <a href="#" data-category="tarjetas">
+                            Tarjetas
+                            <span>25</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="flyers">
+                            Flyers
+                            <span>30</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="banners">
+                            Banners
+                            <span>20</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="stickers">
+                            Stickers
+                            <span>45</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+            <!-- MERCHANDISING -->
+
+            <li class="category-parent">
+
+                <div class="category-toggle">
+
+                    <span>Merchandising</span>
+
+                    <span>95</span>
+
+                    <i class="fa-solid fa-chevron-down toggle-arrow"></i>
+
+                </div>
+
+                <ul class="sub-category-list">
+
+                    <li>
+                        <a href="#" data-category="llaveros">
+                            Llaveros
+                            <span>20</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="pines">
+                            Pines y botones
+                            <span>18</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="mousepads">
+                            Mouse Pads
+                            <span>22</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="merchandising">
+                            Otros productos
+                            <span>35</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+            <!-- DISEÑO GRÁFICO -->
+
+            <li class="category-parent">
+
+                <div class="category-toggle">
+
+                    <span>Diseño gráfico</span>
+
+                    <span>80</span>
+
+                    <i class="fa-solid fa-chevron-down toggle-arrow"></i>
+
+                </div>
+
+                <ul class="sub-category-list">
+
+                    <li>
+                        <a href="#" data-category="logos">
+                            Logos
+                            <span>20</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="publicidad">
+                            Publicidad
+                            <span>25</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="redes-sociales">
+                            Redes sociales
+                            <span>20</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-category="editorial">
+                            Diseño editorial
+                            <span>15</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+        </ul>
+
+
+        <!-- =================================================
+             FILTRO POR PRECIO
+        ================================================== -->
+
+        <div class="price-filter-section">
+
+            <h3>
+                Filtrar por precio
+            </h3>
+
+            <div class="price-inputs">
+
+                <input
+                    type="number"
+                    id="priceMin"
+                    placeholder="Mín."
+                >
+
+                <span>–</span>
+
+                <input
+                    type="number"
+                    id="priceMax"
+                    placeholder="Máx."
+                >
+
+            </div>
+
+            <button
+                type="button"
+                id="filterPriceBtn"
+                class="btn-filtrar"
+            >
+                Filtrar
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =================================================
+         PRODUCTOS
+    ================================================== -->
+
+    <section class="products-section">
+
+        <!-- ENCABEZADO -->
+
+        <div class="category-header">
+
+            <div>
+
+                <h1>
+                    Sublimación
+                </h1>
+
+                <p id="resultsCount">
+                    Mostrando productos
+                </p>
+
+            </div>
+
+            <div class="sort-box">
+
+                <label for="sortProducts">
+                    Ordenar:
+                </label>
+
+                <select id="sortProducts">
+
+                    <option value="default">
+                        Predeterminado
+                    </option>
+
+                    <option value="price-low">
+                        Precio: menor a mayor
+                    </option>
+
+                    <option value="price-high">
+                        Precio: mayor a menor
+                    </option>
+
+                    <option value="name">
+                        Nombre
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <!-- GRID DE PRODUCTOS -->
+
+        <div
+            class="products-grid"
+            id="productsGrid"
+        >
+
+            <!-- PRODUCTO 1 -->
+
+            <article
+                class="product-card"
+                data-category="tazas"
+                data-price="8"
+                data-name="Taza blanca para sublimación"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/mug,white"
+                        alt="Taza blanca para sublimación"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Tazas
+                    </span>
+
+                    <h2>
+                        Taza blanca para sublimación
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 8.00
+                        </strong>
+
+                        <del>
+                            S/ 10.00
+                        </del>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Taza blanca para sublimación')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 2 -->
+
+            <article
+                class="product-card"
+                data-category="tazas"
+                data-price="12"
+                data-name="Taza de color para sublimación"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/mug,colorful"
+                        alt="Taza de color para sublimación"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Tazas
+                    </span>
+
+                    <h2>
+                        Taza de color para sublimación
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 12.00
+                        </strong>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Taza de color para sublimación')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 3 -->
+
+            <article
+                class="product-card"
+                data-category="tazas"
+                data-price="15"
+                data-name="Taza mágica para sublimación"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/mug,black"
+                        alt="Taza mágica para sublimación"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Tazas
+                    </span>
+
+                    <h2>
+                        Taza mágica para sublimación
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 15.00
+                        </strong>
+
+                        <del>
+                            S/ 18.00
+                        </del>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Taza mágica para sublimación')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 4 -->
+
+            <article
+                class="product-card"
+                data-category="textil"
+                data-price="18"
+                data-name="Polo blanco para sublimación"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="images.jpeg"
+                        alt="Polo blanco para sublimación"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Textil
+                    </span>
+
+                    <h2>
+                        Polo blanco para sublimación
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 18.00
+                        </strong>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Polo blanco para sublimación')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 5 -->
+
+            <article
+                class="product-card"
+                data-category="otros"
+                data-price="10"
+                data-name="Mouse Pad sublimable"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/mousepad,computer"
+                        alt="Mouse Pad sublimable"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Otros productos
+                    </span>
+
+                    <h2>
+                        Mouse Pad sublimable
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 10.00
+                        </strong>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Mouse Pad sublimable')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 6 -->
+
+            <article
+                class="product-card"
+                data-category="tomatodos"
+                data-price="20"
+                data-name="Tomatodo sublimable"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/waterbottle,printing"
+                        alt="Tomatodo sublimable"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Tomatodos
+                    </span>
+
+                    <h2>
+                        Tomatodo sublimable
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 20.00
+                        </strong>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Tomatodo sublimable')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 7 -->
+
+            <article
+                class="product-card"
+                data-category="otros"
+                data-price="7"
+                data-name="Llavero sublimable"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/keychain,printing"
+                        alt="Llavero sublimable"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Otros productos
+                    </span>
+
+                    <h2>
+                        Llavero sublimable
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 7.00
+                        </strong>
+
+                        <del>
+                            S/ 9.00
+                        </del>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Llavero sublimable')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 8 -->
+
+            <article
+                class="product-card"
+                data-category="otros"
+                data-price="16"
+                data-name="Cojín sublimable"
+            >
+
+                <div class="product-image">
+
+                    <img
+                        src="https://loremflickr.com/800/800/pillow,printing"
+                        alt="Cojín sublimable"
+                    >
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Otros productos
+                    </span>
+
+                    <h2>
+                        Cojín sublimable
+                    </h2>
+
+                    <div class="product-price">
+
+                        <strong>
+                            S/ 16.00
+                        </strong>
+
+                    </div>
+
+                    <button
+                        class="consult-button"
+                        onclick="consultProduct('Cojín sublimable')"
+                    >
+                        Consultar
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =================================================
+             MODAL DE VISTA PREVIA
+        ================================================== -->
+
+        <div
+            class="quick-view-modal"
+            id="quickViewModal"
+        >
+
+            <div
+                class="modal-overlay"
+                id="closeModalOverlay"
+            ></div>
+
+            <div class="modal-content">
+
+                <button
+                    class="modal-close"
+                    id="closeModalBtn"
+                    type="button"
+                    aria-label="Cerrar"
+                >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <div
+                    class="modal-body"
+                    id="modalBodyContent"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             PAGINACIÓN
+        ================================================== -->
+
+        <div class="pagination">
+
+            <button class="active">
+                1
+            </button>
+
+            <button>
+                2
+            </button>
+
+            <button>
+                3
+            </button>
+
+            <button>
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =====================================================
+     MÁS VENDIDOS
+===================================================== -->
+
+<section class="featured-section">
+
+    <div class="container">
+
+        <div class="featured-header">
+
+            <div>
+
+                <span class="section-label">
+                    LO MÁS ELEGIDO
+                </span>
+
+                <h2>
+                    Más Vendidos
+                </h2>
+
+                <p>
+                    Conoce algunos de los productos favoritos de nuestros clientes.
+                </p>
+
+            </div>
+
+            <a href="#" class="view-all">
+
+                Ver todos
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="featured-products">
+
+
+            <!-- PRODUCTO DESTACADO 1 -->
+
+            <div class="featured-card">
+
+                <div class="featured-image">
+
+                    <img
+                        src="mug.jpg"
+                        alt="Taza para sublimación"
+                    >
+
+                </div>
+
+                <div class="featured-info">
+
+                    <span class="product-category">
+                        SUBLIMACIÓN
+                    </span>
+
+                    <h3>
+                        Taza blanca para sublimación
+                    </h3>
+
+                    <div class="featured-bottom">
+
+                        <strong>
+                            S/ 8.00
+                        </strong>
+
+                        <button
+                            onclick="consultProduct('Taza blanca para sublimación')"
+                        >
+                            Consultar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCTO DESTACADO 2 -->
+
+            <div class="featured-card">
+
+                <div class="featured-image">
+
+                    <img
+                        src="images.jpeg"
+                        alt="Polo para sublimación"
+                    >
+
+                </div>
+
+                <div class="featured-info">
+
+                    <span class="product-category">
+                        SUBLIMACIÓN
+                    </span>
+
+                    <h3>
+                        Polo blanco para sublimación
+                    </h3>
+
+                    <div class="featured-bottom">
+
+                        <strong>
+                            S/ 18.00
+                        </strong>
+
+                        <button
+                            onclick="consultProduct('Polo blanco para sublimación')"
+                        >
+                            Consultar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCTO DESTACADO 3 -->
+
+            <div class="featured-card">
+
+                <div class="featured-image">
+
+                    <img
+                        src="copex.jpg"
+                        alt="Tomatodo personalizado"
+                    >
+
+                </div>
+
+                <div class="featured-info">
+
+                    <span class="product-category">
+                        SUBLIMACIÓN
+                    </span>
+
+                    <h3>
+                        Tomatodo para sublimación
+                    </h3>
+
+                    <div class="featured-bottom">
+
+                        <strong>
+                            S/ 20.00
+                        </strong>
+
+                        <button
+                            onclick="consultProduct('Tomatodo para sublimación')"
+                        >
+                            Consultar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCTO DESTACADO 4 -->
+
+            <div class="featured-card">
+
+                <div class="featured-image">
+
+                    <img
+                        src="mousepad.jpg"
+                        alt="Mouse Pad personalizado"
+                    >
+
+                </div>
+
+                <div class="featured-info">
+
+                    <span class="product-category">
+                        MERCHANDISING
+                    </span>
+
+                    <h3>
+                        Mouse Pad personalizado
+                    </h3>
+
+                    <div class="featured-bottom">
+
+                        <strong>
+                            S/ 10.00
+                        </strong>
+
+                        <button
+                            onclick="consultProduct('Mouse Pad personalizado')"
+                        >
+                            Consultar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     NUESTROS TRABAJOS
+===================================================== -->
+
+<section class="works-section">
+
+    <div class="container">
+
+        <div class="works-header">
+
+            <div>
+
+                <span class="section-label">
+                    NUESTRO PORTAFOLIO
+                </span>
+
+                <h2>
+                    Nuestros trabajos
+                </h2>
+
+                <p>
+                    Conoce algunos de nuestros proyectos y trabajos realizados.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="works-grid">
+
+
+            <div class="work-item">
+
+                <img
+                    src="trabajo-1.jpg"
+                    alt="Diseño gráfico"
+                >
+
+                <div class="work-overlay">
+
+                    <span>
+                        DISEÑO GRÁFICO
+                    </span>
+
+                    <h3>
+                        Diseño publicitario
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="work-item">
+
+                <img
+                    src="trabajo-2.jpg"
+                    alt="Sublimación"
+                >
+
+                <div class="work-overlay">
+
+                    <span>
+                        SUBLIMACIÓN
+                    </span>
+
+                    <h3>
+                        Productos personalizados
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="work-item">
+
+                <img
+                    src="trabajo-3.jpg"
+                    alt="Diseño para redes sociales"
+                >
+
+                <div class="work-overlay">
+
+                    <span>
+                        DISEÑO GRÁFICO
+                    </span>
+
+                    <h3>
+                        Redes sociales
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="work-item">
+
+                <img
+                    src="trabajo-4.jpg"
+                    alt="Impresión"
+                >
+
+                <div class="work-overlay">
+
+                    <span>
+                        IMPRESIÓN
+                    </span>
+
+                    <h3>
+                        Material publicitario
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="work-item">
+
+                <img
+                    src="trabajo-5.jpg"
+                    alt="Merchandising"
+                >
+
+                <div class="work-overlay">
+
+                    <span>
+                        MERCHANDISING
+                    </span>
+
+                    <h3>
+                        Productos personalizados
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="work-item">
+
+                <img
+                    src="trabajo-6.jpg"
+                    alt="Flyer"
+                >
+
+                <div class="work-overlay">
+
+                    <span>
+                        DISEÑO
+                    </span>
+
+                    <h3>
+                        Flyer publicitario
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SOBRE NOSOTROS / MISIÓN / VISIÓN
+===================================================== -->
+
+<section class="about-section" id="nosotros">
+
+    <div class="container">
+
+        <div class="about-header">
+
+            <span class="section-label">
+                SOBRE NOSOTROS
+            </span>
+
+            <h2>
+                Quiénes somos
+            </h2>
+
+            <p>
+                Somos una empresa dedicada a ofrecer insumos de sublimación,
+                productos personalizados y soluciones de impresión para
+                emprendedores, negocios y empresas. Acompañamos cada proyecto
+                con productos de calidad y una atención cercana.
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-card" id="mision">
+
+                <div class="about-icon">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+
+                <h3>
+                    Nuestra misión
+                </h3>
+
+                <p>
+                    Brindar insumos y productos personalizados de alta calidad,
+                    junto con un servicio confiable, para que nuestros clientes
+                    puedan crear y hacer crecer sus negocios con éxito.
+                </p>
+
+            </div>
+
+
+            <div class="about-card" id="vision">
+
+                <div class="about-icon">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+
+                <h3>
+                    Nuestra visión
+                </h3>
+
+                <p>
+                    Ser una empresa de referencia en sublimación y
+                    personalización, reconocida por su calidad, innovación y
+                    compromiso con cada cliente.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+
+                <h3>
+                    Nuestros valores
+                </h3>
+
+                <p>
+                    Compromiso, calidad, honestidad y atención cercana en cada
+                    pedido, desde la primera consulta hasta la entrega.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+
+        <!-- COLUMNA 1 -->
+
+        <div class="footer-column">
+
+            <h3>
+                TU MARCA
+            </h3>
+
+            <p>
+                Insumos, productos y soluciones para
+                sublimación y personalización.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- COLUMNA 2 -->
+
+        <div class="footer-column">
+
+            <h3>
+                Categorías
+            </h3>
+
+            <a href="#">
+                Sublimación
+            </a>
+
+            <a href="#">
+                Impresión
+            </a>
+
+            <a href="#">
+                Merchandising
+            </a>
+
+            <a href="#">
+                Diseño gráfico
+            </a>
+
+        </div>
+
+
+        <!-- COLUMNA 3 -->
+
+        <div class="footer-column">
+
+            <h3>
+                Información
+            </h3>
+
+            <a href="#">
+                Nosotros
+            </a>
+
+            <a href="#">
+                Contacto
+            </a>
+
+            <a href="#">
+                Preguntas frecuentes
+            </a>
+
+            <a href="#">
+                Términos y condiciones
+            </a>
+
+        </div>
+
+
+        <!-- COLUMNA 4 -->
+
+        <div class="footer-column">
+
+            <h3>
+                Contacto
+            </h3>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +51 999 999 999
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                contacto@tumarca.com
+            </p>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                San Martín, Perú
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                © 2026 Tu Marca. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     WHATSAPP
+===================================================== -->
+
+<a
+    href="https://wa.me/51999999999"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="WhatsApp"
+>
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
